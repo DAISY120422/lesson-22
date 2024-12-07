@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <script>
+           var subjects = ["Coding", "Math", "Music"];
+           document.getElementById("demo").innerHTML = subjects.join("*");
+           document.getElementById("demo1").innerHTML = subjects;
+           subjects.pop();
+           document.getElementById("demo2").innerHTML = subjects;
+        </script>
+    </body>
+</html>
